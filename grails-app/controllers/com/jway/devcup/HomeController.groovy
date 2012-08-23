@@ -6,5 +6,7 @@ class HomeController {
 	
 	def map() { }
 	
+	def map2() { }
+	
 	def chart() { } 
 }
