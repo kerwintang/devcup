@@ -11,30 +11,30 @@
 
    		var json = [
    		         {
-   		           "title": "Stockholm",
-   		           "lat": 59.3,
-   		           "lng": 18.1,
-   		           "description": "Stockholm is the capital and the largest city of Sweden and constitutes the most populated urban area in Scandinavia with a population of 2.1 million in the metropolitan area (2010)"
+   		           "title": "Eastwood City",
+   		           "lat": 14.60885,
+   		           "lng": 121.07979,
+   		           "description": "Eastwood city is the best!"
    		         },
    		         {
-   		           "title": "Oslo",
-   		           "lat": 59.9,
-   		           "lng": 10.8,
-   		           "description": "Oslo is a municipality, and the capital and most populous city of Norway with a metropolitan population of 1,442,318 (as of 2010)."
+   		           "title": "White Plains",
+   		           "lat": 14.60634,
+   		           "lng": 121.07221,
+   		           "description": "White Plains"
    		         },
    		         {
-   		           "title": "Copenhagen",
-   		           "lat": 55.7,
-   		           "lng": 12.6,
-   		           "description": "Copenhagen is the capital of Denmark and its most populous city, with a metropolitan population of 1,931,467 (as of 1 January 2012)."
+   		           "title": "Green Park Executive Homes",
+   		           "lat": 14.61616,
+   		           "lng": 121.10597,
+   		           "description": "Green Park"
    		         }
    		       ];
 
 
    		// Creating a new map
    		var map = new google.maps.Map(document.getElementById("map_canvas"), {
-   		  center: new google.maps.LatLng(57.9, 14.6),
-   		  zoom: 6,
+   		  center: new google.maps.LatLng(14.60885, 121.07979),
+   		  zoom: 14,
    		  mapTypeId: google.maps.MapTypeId.ROADMAP
    		});
 
